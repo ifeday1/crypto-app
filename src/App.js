@@ -1,7 +1,14 @@
 import React from 'react'
-import { Switch, Route, Link } from 'react-router-dom';
-import { Layout, Typography, Sapce } from 'antd';
-import Navbar from './components/Navbar';
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+  Link,
+  Outlet
+} from "react-router-dom";
+import { Layout, Typography, Sapce, Switch } from 'antd';
+import {Navbar, Exchange,CryptoDetails, Cryptocurrencies,News,Homepage } from './components';
+import './index';
 import  "./App.css";
 
 const App = () => {
@@ -11,8 +18,11 @@ const App = () => {
     <Navbar/>
     </div>
     <div className='main'>
-    
+   
+  
+   
     </div>
+
     <div className='footer'>
     
     </div>
@@ -20,4 +30,4 @@ const App = () => {
   )
 }
 
-export default App
+export default App;
