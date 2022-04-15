@@ -3,7 +3,7 @@ import { Button, Menu, Typography, Avatar } from 'antd';
 import {Link} from 'react-router-dom';
 import { HomeOutlined, MoneyCollectionOutlined, BubOutlined, FundOutlined, MenuOutlined, MoneyCollectFilled, BulbFilled } from '@ant-design/icons';
 
-import icon from "../images/lisk-logo-2.png";
+import icon from "../images/images.png";
 
 const Navbar = () => {
   return (
@@ -29,7 +29,6 @@ const Navbar = () => {
     <Menu.Item icon={<BulbFilled/>} >
     <Link to="/news">News</Link>
     </Menu.Item>
-    
 
     
     </Menu>     
